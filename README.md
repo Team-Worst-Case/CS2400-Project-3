@@ -9,5 +9,5 @@ Extra Features: //stub
 
 Screencast: //link
 
-Documentation: https://key-wii.github.io/CS2400-Project-2/index.html To access source code, check the repository below.
-Repository link: https://github.com/key-wii/CS2400-Project-2
+Documentation: https://Team-Worst-Case.github.io/CS2400-Project-3/index.html To access source code, check the repository below.
+Repository link: https://github.com/Team-Worst-Case/CS2400-Project-3
