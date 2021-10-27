@@ -73,8 +73,6 @@ public class DriverBT
       System.out.println();
 	}
 	
-	/**-------------------------------------------------------------------- */
-	/**Task 4: Create a tree case as shown in assignment 3*/
 	public static void createTree2(BinaryTree<String> tree)
 	{ 
 		// Leaves
@@ -89,15 +87,22 @@ public class DriverBT
 
 		tree.setTree("A", bTree, cTree);
 		
+		String aData = tree.getRootData();
+		String bData = tree.getRootNode().getLeftChild().getData();
+		String cData = tree.getRootNode().getRightChild().getData();
+		String dData = tree.getRootNode().getLeftChild().getLeftChild().getData();
+		String eData = tree.getRootNode().getLeftChild().getRightChild().getData();
+		String fData = tree.getRootNode().getRightChild().getLeftChild().getData();
+		String gData = tree.getRootNode().getRightChild().getLeftChild().getRightChild().getData();
+
       System.out.println("\nGiven Tree:\n");
-      System.out.println("     " + tree.getRootData() + "      ");
+      System.out.println("     " + aData + "      ");
       System.out.println("   /   \\  ");
-      System.out.println("  " + bTree.getRootData() + "     " + cTree.getRootData() + "  ");
+      System.out.println("  " + bData + "     " + cData + "  ");
       System.out.println(" / \\   /  ");
-      System.out.println("" + dTree.getRootData() + "   " + eTree.getRootData() + "  " + fTree.getRootData() + "   ");
+      System.out.println("" + dData + "   " + eData + "  " + fData + "   ");
       System.out.println("        \\ ");
-      System.out.println("         " + gTree.getRootData() + " ");
+      System.out.println("         " + gData + " ");
       System.out.println();
 	}
-
 }
