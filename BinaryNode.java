@@ -123,7 +123,7 @@ class BinaryNode<T>
       if (rightChild != null)
          rightHeight = rightChild.getHeight_binaryNodeMethod();
 
-      return 1 + leftHeight + rightHeight;
+      return 1 + Math.max(leftHeight, rightHeight);
    }
    /** -------------------------------------------------------------------- */
    /** A Recursive Method in the BinaryNode Class  
