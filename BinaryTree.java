@@ -32,7 +32,8 @@ public class BinaryTree<T> implements BinaryTreeInterface<T>
    public T getRootData()
    {
       if (isEmpty())
-         throw new EmptyTreeException();
+         //throw new EmptyTreeException("empty");
+         return null;
       else
          return root.getData();
    }
