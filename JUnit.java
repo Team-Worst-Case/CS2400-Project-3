@@ -2,31 +2,33 @@ import org.junit.Test;
 import static org.mockito.Mockito.*;
 
 public class JUnit {
-    protected String getPOTraversal() {
-        String traversal = "";
 
-        return traversal;
+    @Test
+    //protected String getPOTraversal() {
+    protected void getPOTraversal() {
+        //String traversal = "";
+        BinaryTree<String> aTree = new BinaryTree<>();
+        DriverBT.createTree1(aTree);
+
+        verify(aTree, times(1)).postorderTraverse();
+        //return traversal;
+    }
+    
+    @Test
+    //protected String getPOTraversal() {
+    protected void getPOTraversal_BinaryNode() {
+        //String traversal = "";
+        BinaryTree<String> aTree = new BinaryTree<>();
+        DriverBT.createTree1(aTree);
+
+        verify(aTree, times(1)).postorderTraverse_callBinaryNodeMethod();
+        //return traversal;
     }
 
-    public void poTraverse() {
+    /**public void poTraverse() {
         String traversal = getPOTraversal();
         System.out.println(traversal);
-    }
-
-    BinaryTree<String> aTree = new BinaryTree<>();
-    // Leaves
-    BinaryTree<String> dTree = new BinaryTree<>("D");
-    BinaryTree<String> eTree = new BinaryTree<>("E");
-    BinaryTree<String> gTree = new BinaryTree<>("G");
-
-    // Subtrees:
-    BinaryTree<String> fTree = new BinaryTree<>("F", null, gTree);
-    BinaryTree<String> bTree = new BinaryTree<>("B", dTree, eTree);
-    BinaryTree<String> cTree = new BinaryTree<>("C", fTree, null);
-
-    aTree.setTree("A", bTree, cTree);
-    
-    aTree.postorderTraverse();
+    }*/
     
     aTree.postorderTraverse_callBinaryNodeMethod();
     
