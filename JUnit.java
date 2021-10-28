@@ -30,14 +30,9 @@ public class JUnit {
         System.out.println(traversal);
     }*/
     
-    aTree.postorderTraverse_callBinaryNodeMethod();
-    
-    aTree.getHeight();
+    /*aTree.getHeight();
     aTree.getHeight_callBinaryNodeMethod();
     
-    System.out.println();
-    
     aTree.getNumberOfNodes();
-    aTree.getNumberOfNodes_callBinaryNodeMethod();
-		
+    aTree.getNumberOfNodes_callBinaryNodeMethod();**/
 }
