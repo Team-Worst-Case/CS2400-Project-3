@@ -25,6 +25,29 @@ public class JUnit {
         //return traversal;
     }
 
+    @Test
+    public void testGetHeight_binaryNodeMethod()
+    {
+	    BinaryTree<String> aTree = new BinaryTree<>();
+	    DriverBT.createTree1(atree);
+	    assertEquals(4, aTree.getHeight());
+
+	    BinaryTree<String> bTree = new BinaryTree<>();
+	    DriverBT.createTree2(btree);
+	    assertEquals(7, bTree.getHeight());
+    }
+
+    @Test
+    public void testGetNumberOfNodes_binaryNodeMethod();
+    {
+	    BinaryTree<String> aTree = new BinaryTree<>();
+	    DriverBT.createTree1(aTree);
+	    assertEquals(4, aTree.getNumberOfNodes_callBinaryNodeMethod());
+
+	    BinaryTree<String> bTree = new BinaryTree<>();
+	    DriverBT.createTree2(bTree);
+	    assertEquals(7, bTree.getNumberOfNodes_callBinaryNodeMethod());
+    }
     /**public void poTraverse() {
         String traversal = getPOTraversal();
         System.out.println(traversal);
