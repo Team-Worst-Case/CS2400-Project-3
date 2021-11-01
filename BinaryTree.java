@@ -93,7 +93,7 @@ public class BinaryTree<T> implements BinaryTreeInterface<T>
     * prints (using post-order traversal) all nodes in the "whole" tree */
    public void postorderTraverse()
    {
-      
+      this.postorderTraverse(root);
    }
    
    /** A Recursive Method in the BinaryTree Class   
@@ -114,7 +114,7 @@ public class BinaryTree<T> implements BinaryTreeInterface<T>
     * prints (using post-order traversal) all nodes in the "whole" tree */
    public void postorderTraverse_callBinaryNodeMethod()
    {
-      
+      this.root.postorderTraverse_binaryNodeMethod();
    }
    
    /** -------------------------------------------------------------------- */
