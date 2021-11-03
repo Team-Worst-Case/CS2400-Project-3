@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"<Unnamed>","c":"BinaryTreeInterface","l":"setRootData(T)"},{"p":"<Unnamed>","c":"BinaryTreeInterface","l":"setTree(T, BinaryTreeInterface<T>, BinaryTreeInterface<T>)","url":"setTree(T,BinaryTreeInterface,BinaryTreeInterface)"}]
