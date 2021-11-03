@@ -16,11 +16,7 @@ public class JUnit {
         //return traversal;
     }
     
-    /**
-    need tests for:
-    aTree.getHeight();
-    aTree.getNumberOfNodes();
-    */
+
     
     @Test
     public void testGetHeight_binaryNodeMethod()
@@ -76,8 +72,5 @@ public class JUnit {
  
 
 
-    /**public void poTraverse() {
-        String traversal = getPOTraversal();
-        System.out.println(traversal);
-    }*/
-} // hi
+   
+} 

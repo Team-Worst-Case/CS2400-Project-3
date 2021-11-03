@@ -2,7 +2,7 @@ Members: Christopher Gomez, Joseph Setiawan, Roberto Tabares
 
 Contributions:
 Christopher Gomez - 
-Joseph Setiawan - 
+Joseph Setiawan - postorderTraverse(), postorderTraverse_callBinaryNodeMethod(), postorderTraverse_binaryNodeMethod()
 Roberto Tabares - 
 
 Extra Features: //stub
